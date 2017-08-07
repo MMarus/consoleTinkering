@@ -1,5 +1,6 @@
 package Tinkering;
 
+import org.aesh.readline.tty.terminal.TerminalConnection;
 import org.jboss.aesh.console.AeshConsoleBufferBuilder;
 import org.jboss.aesh.console.AeshInputProcessorBuilder;
 import org.jboss.aesh.console.ConsoleBuffer;
@@ -45,7 +46,15 @@ public class ConsoleWrapperImpl implements ConsoleWrapper {
 
     @Override
     public String readLine(String fmt, Object... args) throws IOError {
-        return null;
+        Terminal term = new Terminal();
+
+        try {
+            TerminalConnection conn = new TerminalConnection(term);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return term.getLine();
     }
 
 //    @Override
