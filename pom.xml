@@ -72,32 +72,7 @@
         <dependency>
             <groupId>org.jboss.aesh</groupId>
             <artifactId>aesh</artifactId>
-            <version>0.66</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.aesh</groupId>
-            <artifactId>aesh-extensions</artifactId>
-            <version>0.66</version>
-        </dependency>
-        <dependency>
-            <groupId>org.wildfly.core</groupId>
-            <artifactId>wildfly-core-parent</artifactId>
-            <version>2.1.18.Final-redhat-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.wildfly.core</groupId>
-            <artifactId>wildfly-cli</artifactId>
-            <version>2.1.18.Final-redhat-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.aesh</groupId>
-            <artifactId>aesh</artifactId>
             <version>0.66.15</version>
-        </dependency>
-        <dependency>
-            <groupId>org.wildfly.core</groupId>
-            <artifactId>wildfly-cli</artifactId>
-            <version>3.0.0.Beta13-redhat-1</version>
         </dependency>
         <dependency>
             <groupId>org.wildfly.core</groupId>
@@ -109,9 +84,10 @@
             <artifactId>aesh-readline</artifactId>
             <version>1.1-SNAPSHOT</version>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.wildfly.core</groupId>
+            <artifactId>wildfly-cli</artifactId>
+            <version>3.0.0.Beta13</version>
+        </dependency>
     </dependencies>
-
-
 </project>
