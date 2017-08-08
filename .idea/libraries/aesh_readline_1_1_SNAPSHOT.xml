@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="aesh-readline-1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../aesh-readline/readline/target/aesh-readline-1.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../aesh-readline/readline/target/aesh-readline-1.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../aesh-readline/readline/target/aesh-readline-1.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

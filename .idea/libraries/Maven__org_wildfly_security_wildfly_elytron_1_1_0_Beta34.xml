@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.wildfly.security:wildfly-elytron:1.1.0.Beta34">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/security/wildfly-elytron/1.1.0.Beta34/wildfly-elytron-1.1.0.Beta34.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/security/wildfly-elytron/1.1.0.Beta34/wildfly-elytron-1.1.0.Beta34-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/security/wildfly-elytron/1.1.0.Beta34/wildfly-elytron-1.1.0.Beta34-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
